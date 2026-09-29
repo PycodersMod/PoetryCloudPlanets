@@ -27,3 +27,8 @@
 | Java Package | com.pycoder.poetrycloudplanets |
 
 Mod ID、Registry Namespace 和存档标识保持原值。工程目录、Gradle group、Java package 和 GitHub 仓库名属于工程组织信息。
+## License
+
+本项目采用 MIT License，详见 [LICENSE](./LICENSE)。
+
+本仓库的 Gradle Wrapper 保留其随附的 Apache-2.0 许可，详见 [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md)。
