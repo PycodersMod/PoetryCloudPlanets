@@ -1,0 +1,47 @@
+# Gradle / build
+**/.gradle/
+**/build/
+**/out/
+**/bin/
+**/target/
+
+# Minecraft development runtime
+**/run/
+**/runs/
+**/run-*/
+**/logs/
+**/log/
+**/crash-reports/
+**/saves/
+**/screenshots/
+**/*.log
+**/hs_err_pid*.log
+
+# IDE
+**/.idea/
+**/.vscode/
+**/*.iml
+**/.classpath
+**/.project
+**/.settings/
+
+# Local development / AI
+**/.codex/
+**/.sisyphus/
+**/.superpowers/
+**/.skill-cache/
+**/.local/
+**/local-config/
+.env
+.env.*
+local.properties
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary
+**/*.tmp
+**/*.bak
+**/*.swp
