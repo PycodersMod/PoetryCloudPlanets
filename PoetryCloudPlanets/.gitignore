@@ -1,0 +1,28 @@
+# Gradle and compiled outputs
+.gradle/
+build/
+**/build/
+bin/
+out/
+target/
+
+# Local run data and logs
+run/
+logs/
+crash-reports/
+saves/
+screenshots/
+*.log
+
+# IDE and agent state
+.idea/
+.vscode/
+*.iml
+.codex/
+.sisyphus/
+.superpowers/
+
+# Local-only credentials and machine configuration
+.env
+.env.*
+local.properties
