@@ -1,5 +1,7 @@
 import org.gradle.api.tasks.Copy
 import org.gradle.api.tasks.compile.JavaCompile
+import java.nio.charset.StandardCharsets
+import java.util.Base64
 
 plugins {
     java
@@ -22,6 +24,11 @@ val modDescription = prop("mod_description")
 val modLicense = prop("mod_license")
 val pcpUsername = providers.gradleProperty("pcpUsername").orNull
 val pcpRunDir = providers.gradleProperty("pcpRunDir").orNull
+val pycodersRunDir = file(providers.gradleProperty("pycodersRuntimeDir").orElse("../../runtime/legacy-import/PoetryCloudPlanets/run").get())
+fun decodeArgs(name: String): List<String> = providers.gradleProperty(name).orNull?.takeIf { it.isNotEmpty() }?.split('.')?.map { if (it == "_") "" else String(Base64.getDecoder().decode(it), StandardCharsets.UTF_8) } ?: emptyList()
+val pycodersGameArgs = decodeArgs("pycodersGameArgsB64")
+val pycodersJavaArgs = decodeArgs("pycodersJavaArgsB64")
+val pycodersUsername = providers.gradleProperty("pycodersUsername").orElse(pcpUsername ?: "Dev").get()
 
 group = modGroupId
 version = modVersion
@@ -51,10 +58,12 @@ minecraft {
 
     runs {
         create("client") {
-            workingDirectory(file(pcpRunDir ?: "run"))
+            workingDirectory(pycodersRunDir)
             property("forge.logging.markers", "REGISTRIES")
             property("forge.logging.console.level", "debug")
-            pcpUsername?.let { args("--username", it) }
+            args("--username", pycodersUsername)
+            pycodersGameArgs.forEach { args(it) }
+            pycodersJavaArgs.forEach { jvmArg(it) }
             mods {
                 create(modId) {
                     source(sourceSets.main.get())
@@ -63,7 +72,9 @@ minecraft {
         }
 
         create("server") {
-            workingDirectory(file("run"))
+            workingDirectory(pycodersRunDir)
+            pycodersGameArgs.forEach { args(it) }
+            pycodersJavaArgs.forEach { jvmArg(it) }
             arg("nogui")
             property("forge.logging.markers", "REGISTRIES")
             property("forge.logging.console.level", "debug")
@@ -75,7 +86,7 @@ minecraft {
         }
 
         create("data") {
-            workingDirectory(file("run"))
+            workingDirectory(pycodersRunDir)
             args(
                 "--mod", modId,
                 "--all",
