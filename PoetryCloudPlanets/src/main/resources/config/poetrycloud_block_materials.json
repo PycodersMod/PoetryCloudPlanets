@@ -1,0 +1,1987 @@
+{
+  "version": 1,
+  "materials": [
+    {
+      "blockId": "minecraft:stone",
+      "category": "rock",
+      "density": 2.65,
+      "lightLevel": 0,
+      "colorHex": "7f7f7d",
+      "reflectance": 0.21,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.45,
+        "氧(O)": 0.42,
+        "铝(Al)": 0.05,
+        "铁(Fe)": 0.05,
+        "钾(K)": 0.03
+      }
+    },
+    {
+      "blockId": "minecraft:granite",
+      "category": "rock",
+      "density": 2.75,
+      "lightLevel": 0,
+      "colorHex": "aa7a6a",
+      "reflectance": 0.17,
+      "radioactivity": 0.02,
+      "elements": {
+        "硅(Si)": 0.42,
+        "氧(O)": 0.4,
+        "铝(Al)": 0.07,
+        "铁(Fe)": 0.07,
+        "钾(K)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:diorite",
+      "category": "rock",
+      "density": 2.72,
+      "lightLevel": 0,
+      "colorHex": "dcdcdc",
+      "reflectance": 0.29,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.39,
+        "氧(O)": 0.46,
+        "钙(Ca)": 0.06,
+        "铝(Al)": 0.05,
+        "镁(Mg)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:andesite",
+      "category": "rock",
+      "density": 2.7,
+      "lightLevel": 0,
+      "colorHex": "787878",
+      "reflectance": 0.19,
+      "radioactivity": 0.02,
+      "elements": {
+        "硅(Si)": 0.43,
+        "氧(O)": 0.41,
+        "铝(Al)": 0.07,
+        "铁(Fe)": 0.06,
+        "钙(Ca)": 0.03
+      }
+    },
+    {
+      "blockId": "minecraft:deepslate",
+      "category": "rock",
+      "density": 2.85,
+      "lightLevel": 0,
+      "colorHex": "4b4b54",
+      "reflectance": 0.14,
+      "radioactivity": 0.03,
+      "elements": {
+        "硅(Si)": 0.41,
+        "氧(O)": 0.37,
+        "铁(Fe)": 0.13,
+        "碳(C)": 0.05,
+        "镁(Mg)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:tuff",
+      "category": "rock",
+      "density": 2.9,
+      "lightLevel": 0,
+      "colorHex": "6f6b5f",
+      "reflectance": 0.15,
+      "radioactivity": 0.03,
+      "elements": {
+        "硅(Si)": 0.39,
+        "氧(O)": 0.39,
+        "铁(Fe)": 0.11,
+        "钙(Ca)": 0.06,
+        "铝(Al)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:calcite",
+      "category": "mineral",
+      "density": 2.71,
+      "lightLevel": 0,
+      "colorHex": "e5e2d8",
+      "reflectance": 0.34,
+      "radioactivity": 0.01,
+      "elements": {
+        "钙(Ca)": 0.4,
+        "碳(C)": 0.12,
+        "氧(O)": 0.36,
+        "镁(Mg)": 0.07,
+        "硅(Si)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:dripstone_block",
+      "category": "mineral",
+      "density": 2.7,
+      "lightLevel": 0,
+      "colorHex": "86634d",
+      "reflectance": 0.18,
+      "radioactivity": 0.01,
+      "elements": {
+        "钙(Ca)": 0.38,
+        "碳(C)": 0.12,
+        "氧(O)": 0.38,
+        "硅(Si)": 0.06,
+        "镁(Mg)": 0.06
+      }
+    },
+    {
+      "blockId": "minecraft:dirt",
+      "category": "sediment",
+      "density": 1.6,
+      "lightLevel": 0,
+      "colorHex": "866043",
+      "reflectance": 0.14,
+      "radioactivity": 0.0,
+      "elements": {
+        "硅(Si)": 0.36,
+        "氧(O)": 0.3,
+        "铝(Al)": 0.13,
+        "铁(Fe)": 0.11,
+        "碳(C)": 0.1
+      }
+    },
+    {
+      "blockId": "minecraft:coarse_dirt",
+      "category": "sediment",
+      "density": 1.68,
+      "lightLevel": 0,
+      "colorHex": "76553b",
+      "reflectance": 0.13,
+      "radioactivity": 0.0,
+      "elements": {
+        "硅(Si)": 0.4,
+        "氧(O)": 0.31,
+        "铝(Al)": 0.11,
+        "铁(Fe)": 0.1,
+        "碳(C)": 0.08
+      }
+    },
+    {
+      "blockId": "minecraft:mud",
+      "category": "sediment",
+      "density": 1.72,
+      "lightLevel": 0,
+      "colorHex": "4a3b33",
+      "reflectance": 0.09,
+      "radioactivity": 0.0,
+      "elements": {
+        "氢(H)": 0.1,
+        "氧(O)": 0.23,
+        "硅(Si)": 0.3,
+        "铝(Al)": 0.1,
+        "铁(Fe)": 0.09,
+        "碳(C)": 0.08
+      }
+    },
+    {
+      "blockId": "minecraft:clay",
+      "category": "sediment",
+      "density": 2.1,
+      "lightLevel": 0,
+      "colorHex": "a9b5c1",
+      "reflectance": 0.22,
+      "radioactivity": 0.0,
+      "elements": {
+        "硅(Si)": 0.43,
+        "氧(O)": 0.38,
+        "铝(Al)": 0.1,
+        "铁(Fe)": 0.05,
+        "钙(Ca)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:gravel",
+      "category": "sediment",
+      "density": 1.95,
+      "lightLevel": 0,
+      "colorHex": "8e8e8a",
+      "reflectance": 0.16,
+      "radioactivity": 0.0,
+      "elements": {
+        "硅(Si)": 0.52,
+        "氧(O)": 0.3,
+        "钙(Ca)": 0.1,
+        "铁(Fe)": 0.05,
+        "铝(Al)": 0.03
+      }
+    },
+    {
+      "blockId": "minecraft:sand",
+      "category": "sediment",
+      "density": 1.6,
+      "lightLevel": 0,
+      "colorHex": "dbd3a0",
+      "reflectance": 0.48,
+      "radioactivity": 0.0,
+      "elements": {
+        "硅(Si)": 0.55,
+        "氧(O)": 0.32,
+        "钙(Ca)": 0.05,
+        "铁(Fe)": 0.04,
+        "铝(Al)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:red_sand",
+      "category": "sediment",
+      "density": 1.62,
+      "lightLevel": 0,
+      "colorHex": "b86b3b",
+      "reflectance": 0.31,
+      "radioactivity": 0.0,
+      "elements": {
+        "硅(Si)": 0.47,
+        "氧(O)": 0.29,
+        "铁(Fe)": 0.14,
+        "铝(Al)": 0.06,
+        "钙(Ca)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:sandstone",
+      "category": "sediment",
+      "density": 2.32,
+      "lightLevel": 0,
+      "colorHex": "d2c39a",
+      "reflectance": 0.31,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.5,
+        "氧(O)": 0.31,
+        "钙(Ca)": 0.11,
+        "铁(Fe)": 0.04,
+        "铝(Al)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:red_sandstone",
+      "category": "sediment",
+      "density": 2.35,
+      "lightLevel": 0,
+      "colorHex": "a8512d",
+      "reflectance": 0.28,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.46,
+        "氧(O)": 0.28,
+        "铁(Fe)": 0.12,
+        "铝(Al)": 0.08,
+        "钙(Ca)": 0.06
+      }
+    },
+    {
+      "blockId": "minecraft:terracotta",
+      "category": "ceramic",
+      "density": 2.3,
+      "lightLevel": 0,
+      "colorHex": "985e43",
+      "reflectance": 0.23,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.41,
+        "氧(O)": 0.37,
+        "铝(Al)": 0.12,
+        "钙(Ca)": 0.06,
+        "铁(Fe)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:white_terracotta",
+      "category": "ceramic",
+      "density": 2.3,
+      "lightLevel": 0,
+      "colorHex": "d1b1a1",
+      "reflectance": 0.27,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.41,
+        "氧(O)": 0.37,
+        "铝(Al)": 0.12,
+        "钙(Ca)": 0.06,
+        "铁(Fe)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:orange_terracotta",
+      "category": "ceramic",
+      "density": 2.31,
+      "lightLevel": 0,
+      "colorHex": "c26b34",
+      "reflectance": 0.22,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.4,
+        "氧(O)": 0.36,
+        "铝(Al)": 0.12,
+        "铁(Fe)": 0.07,
+        "钙(Ca)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:magenta_terracotta",
+      "category": "ceramic",
+      "density": 2.3,
+      "lightLevel": 0,
+      "colorHex": "945b8c",
+      "reflectance": 0.21,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.4,
+        "氧(O)": 0.36,
+        "铝(Al)": 0.13,
+        "铁(Fe)": 0.06,
+        "钙(Ca)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:light_blue_terracotta",
+      "category": "ceramic",
+      "density": 2.29,
+      "lightLevel": 0,
+      "colorHex": "6f91b6",
+      "reflectance": 0.24,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.41,
+        "氧(O)": 0.37,
+        "铝(Al)": 0.12,
+        "钙(Ca)": 0.06,
+        "铁(Fe)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:yellow_terracotta",
+      "category": "ceramic",
+      "density": 2.29,
+      "lightLevel": 0,
+      "colorHex": "ba8524",
+      "reflectance": 0.24,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.4,
+        "氧(O)": 0.37,
+        "铝(Al)": 0.11,
+        "铁(Fe)": 0.06,
+        "钙(Ca)": 0.06
+      }
+    },
+    {
+      "blockId": "minecraft:lime_terracotta",
+      "category": "ceramic",
+      "density": 2.3,
+      "lightLevel": 0,
+      "colorHex": "677535",
+      "reflectance": 0.19,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.41,
+        "氧(O)": 0.36,
+        "铝(Al)": 0.12,
+        "铁(Fe)": 0.06,
+        "钙(Ca)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:pink_terracotta",
+      "category": "ceramic",
+      "density": 2.29,
+      "lightLevel": 0,
+      "colorHex": "a05d5d",
+      "reflectance": 0.22,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.41,
+        "氧(O)": 0.36,
+        "铝(Al)": 0.12,
+        "铁(Fe)": 0.06,
+        "钙(Ca)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:gray_terracotta",
+      "category": "ceramic",
+      "density": 2.32,
+      "lightLevel": 0,
+      "colorHex": "4c3e40",
+      "reflectance": 0.12,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.39,
+        "氧(O)": 0.35,
+        "铝(Al)": 0.12,
+        "铁(Fe)": 0.09,
+        "钙(Ca)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:light_gray_terracotta",
+      "category": "ceramic",
+      "density": 2.3,
+      "lightLevel": 0,
+      "colorHex": "8a6a64",
+      "reflectance": 0.2,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.4,
+        "氧(O)": 0.36,
+        "铝(Al)": 0.12,
+        "铁(Fe)": 0.07,
+        "钙(Ca)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:cyan_terracotta",
+      "category": "ceramic",
+      "density": 2.31,
+      "lightLevel": 0,
+      "colorHex": "575c5c",
+      "reflectance": 0.16,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.4,
+        "氧(O)": 0.36,
+        "铝(Al)": 0.12,
+        "铁(Fe)": 0.07,
+        "钙(Ca)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:purple_terracotta",
+      "category": "ceramic",
+      "density": 2.31,
+      "lightLevel": 0,
+      "colorHex": "7a4958",
+      "reflectance": 0.17,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.4,
+        "氧(O)": 0.36,
+        "铝(Al)": 0.13,
+        "铁(Fe)": 0.06,
+        "钙(Ca)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:blue_terracotta",
+      "category": "ceramic",
+      "density": 2.31,
+      "lightLevel": 0,
+      "colorHex": "4c3e5c",
+      "reflectance": 0.16,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.4,
+        "氧(O)": 0.36,
+        "铝(Al)": 0.13,
+        "铁(Fe)": 0.06,
+        "钙(Ca)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:brown_terracotta",
+      "category": "ceramic",
+      "density": 2.32,
+      "lightLevel": 0,
+      "colorHex": "4d3325",
+      "reflectance": 0.11,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.39,
+        "氧(O)": 0.35,
+        "铝(Al)": 0.12,
+        "铁(Fe)": 0.09,
+        "钙(Ca)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:green_terracotta",
+      "category": "ceramic",
+      "density": 2.31,
+      "lightLevel": 0,
+      "colorHex": "4f532a",
+      "reflectance": 0.14,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.4,
+        "氧(O)": 0.36,
+        "铝(Al)": 0.12,
+        "铁(Fe)": 0.07,
+        "钙(Ca)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:red_terracotta",
+      "category": "ceramic",
+      "density": 2.31,
+      "lightLevel": 0,
+      "colorHex": "8a3b2e",
+      "reflectance": 0.16,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.39,
+        "氧(O)": 0.35,
+        "铝(Al)": 0.12,
+        "铁(Fe)": 0.09,
+        "钙(Ca)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:black_terracotta",
+      "category": "ceramic",
+      "density": 2.34,
+      "lightLevel": 0,
+      "colorHex": "251610",
+      "reflectance": 0.08,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.38,
+        "氧(O)": 0.35,
+        "铝(Al)": 0.12,
+        "铁(Fe)": 0.1,
+        "钙(Ca)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:ice",
+      "category": "cryogenic",
+      "density": 0.92,
+      "lightLevel": 0,
+      "colorHex": "8fbfe8",
+      "reflectance": 0.73,
+      "radioactivity": 0.0,
+      "elements": {
+        "氢(H)": 0.67,
+        "氧(O)": 0.33
+      }
+    },
+    {
+      "blockId": "minecraft:packed_ice",
+      "category": "cryogenic",
+      "density": 0.93,
+      "lightLevel": 0,
+      "colorHex": "a3d5f3",
+      "reflectance": 0.78,
+      "radioactivity": 0.0,
+      "elements": {
+        "氢(H)": 0.67,
+        "氧(O)": 0.33
+      }
+    },
+    {
+      "blockId": "minecraft:blue_ice",
+      "category": "cryogenic",
+      "density": 0.94,
+      "lightLevel": 0,
+      "colorHex": "74aee4",
+      "reflectance": 0.74,
+      "radioactivity": 0.0,
+      "elements": {
+        "氢(H)": 0.67,
+        "氧(O)": 0.33
+      }
+    },
+    {
+      "blockId": "minecraft:snow_block",
+      "category": "cryogenic",
+      "density": 0.35,
+      "lightLevel": 0,
+      "colorHex": "f0f7ff",
+      "reflectance": 0.89,
+      "radioactivity": 0.0,
+      "elements": {
+        "氢(H)": 0.67,
+        "氧(O)": 0.33
+      }
+    },
+    {
+      "blockId": "minecraft:powder_snow",
+      "category": "cryogenic",
+      "density": 0.18,
+      "lightLevel": 0,
+      "colorHex": "f7fbff",
+      "reflectance": 0.92,
+      "radioactivity": 0.0,
+      "elements": {
+        "氢(H)": 0.67,
+        "氧(O)": 0.33
+      }
+    },
+    {
+      "blockId": "minecraft:obsidian",
+      "category": "volcanic_glass",
+      "density": 2.95,
+      "lightLevel": 0,
+      "colorHex": "231839",
+      "reflectance": 0.11,
+      "radioactivity": 0.04,
+      "elements": {
+        "硅(Si)": 0.48,
+        "氧(O)": 0.33,
+        "铁(Fe)": 0.08,
+        "镁(Mg)": 0.06,
+        "铝(Al)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:netherrack",
+      "category": "volcanic",
+      "density": 2.1,
+      "lightLevel": 0,
+      "colorHex": "6f3131",
+      "reflectance": 0.17,
+      "radioactivity": 0.15,
+      "elements": {
+        "硅(Si)": 0.34,
+        "氧(O)": 0.28,
+        "铁(Fe)": 0.18,
+        "硫(S)": 0.1,
+        "镁(Mg)": 0.1
+      }
+    },
+    {
+      "blockId": "minecraft:basalt",
+      "category": "volcanic",
+      "density": 2.9,
+      "lightLevel": 0,
+      "colorHex": "4b4b52",
+      "reflectance": 0.12,
+      "radioactivity": 0.03,
+      "elements": {
+        "硅(Si)": 0.39,
+        "氧(O)": 0.37,
+        "铁(Fe)": 0.12,
+        "镁(Mg)": 0.08,
+        "钙(Ca)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:smooth_basalt",
+      "category": "volcanic",
+      "density": 2.91,
+      "lightLevel": 0,
+      "colorHex": "585861",
+      "reflectance": 0.13,
+      "radioactivity": 0.03,
+      "elements": {
+        "硅(Si)": 0.4,
+        "氧(O)": 0.38,
+        "铁(Fe)": 0.11,
+        "镁(Mg)": 0.07,
+        "钙(Ca)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:blackstone",
+      "category": "volcanic",
+      "density": 3.02,
+      "lightLevel": 0,
+      "colorHex": "2b2a30",
+      "reflectance": 0.1,
+      "radioactivity": 0.04,
+      "elements": {
+        "硅(Si)": 0.32,
+        "氧(O)": 0.27,
+        "铁(Fe)": 0.22,
+        "镁(Mg)": 0.1,
+        "钙(Ca)": 0.09
+      }
+    },
+    {
+      "blockId": "minecraft:magma_block",
+      "category": "volcanic",
+      "density": 2.8,
+      "lightLevel": 3,
+      "colorHex": "6b2c1b",
+      "reflectance": 0.19,
+      "radioactivity": 0.06,
+      "elements": {
+        "硅(Si)": 0.36,
+        "氧(O)": 0.3,
+        "铁(Fe)": 0.14,
+        "镁(Mg)": 0.1,
+        "硫(S)": 0.1
+      }
+    },
+    {
+      "blockId": "minecraft:glowstone",
+      "category": "emissive",
+      "density": 1.45,
+      "lightLevel": 15,
+      "colorHex": "f2cf7a",
+      "reflectance": 0.76,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.34,
+        "氧(O)": 0.31,
+        "钙(Ca)": 0.12,
+        "钾(K)": 0.12,
+        "镁(Mg)": 0.11
+      }
+    },
+    {
+      "blockId": "minecraft:end_stone",
+      "category": "exotic",
+      "density": 2.25,
+      "lightLevel": 0,
+      "colorHex": "d8d89d",
+      "reflectance": 0.29,
+      "radioactivity": 0.02,
+      "elements": {
+        "硅(Si)": 0.4,
+        "氧(O)": 0.36,
+        "钙(Ca)": 0.1,
+        "钾(K)": 0.08,
+        "镁(Mg)": 0.06
+      }
+    },
+    {
+      "blockId": "minecraft:amethyst_block",
+      "category": "crystal",
+      "density": 2.65,
+      "lightLevel": 0,
+      "colorHex": "8561c5",
+      "reflectance": 0.42,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.47,
+        "氧(O)": 0.47,
+        "铁(Fe)": 0.03,
+        "铝(Al)": 0.03
+      }
+    },
+    {
+      "blockId": "minecraft:coal_ore",
+      "category": "ore",
+      "density": 2.45,
+      "lightLevel": 0,
+      "colorHex": "6b6a68",
+      "reflectance": 0.13,
+      "radioactivity": 0.01,
+      "elements": {
+        "碳(C)": 0.18,
+        "硅(Si)": 0.35,
+        "氧(O)": 0.31,
+        "铝(Al)": 0.08,
+        "铁(Fe)": 0.08
+      }
+    },
+    {
+      "blockId": "minecraft:deepslate_coal_ore",
+      "category": "ore",
+      "density": 2.66,
+      "lightLevel": 0,
+      "colorHex": "4b4c51",
+      "reflectance": 0.1,
+      "radioactivity": 0.02,
+      "elements": {
+        "碳(C)": 0.17,
+        "硅(Si)": 0.33,
+        "氧(O)": 0.29,
+        "铁(Fe)": 0.13,
+        "铝(Al)": 0.08
+      }
+    },
+    {
+      "blockId": "minecraft:iron_ore",
+      "category": "metal_ore",
+      "density": 3.3,
+      "lightLevel": 0,
+      "colorHex": "b08d74",
+      "reflectance": 0.19,
+      "radioactivity": 0.02,
+      "elements": {
+        "铁(Fe)": 0.22,
+        "氧(O)": 0.27,
+        "硅(Si)": 0.25,
+        "铝(Al)": 0.14,
+        "钙(Ca)": 0.12
+      }
+    },
+    {
+      "blockId": "minecraft:deepslate_iron_ore",
+      "category": "metal_ore",
+      "density": 3.48,
+      "lightLevel": 0,
+      "colorHex": "7a6558",
+      "reflectance": 0.14,
+      "radioactivity": 0.03,
+      "elements": {
+        "铁(Fe)": 0.24,
+        "氧(O)": 0.24,
+        "硅(Si)": 0.22,
+        "铝(Al)": 0.15,
+        "镁(Mg)": 0.15
+      }
+    },
+    {
+      "blockId": "minecraft:copper_ore",
+      "category": "metal_ore",
+      "density": 3.15,
+      "lightLevel": 0,
+      "colorHex": "b8734e",
+      "reflectance": 0.18,
+      "radioactivity": 0.01,
+      "elements": {
+        "铜(Cu)": 0.18,
+        "氧(O)": 0.29,
+        "硅(Si)": 0.25,
+        "铁(Fe)": 0.14,
+        "铝(Al)": 0.14
+      }
+    },
+    {
+      "blockId": "minecraft:deepslate_copper_ore",
+      "category": "metal_ore",
+      "density": 3.34,
+      "lightLevel": 0,
+      "colorHex": "7d5b4d",
+      "reflectance": 0.13,
+      "radioactivity": 0.02,
+      "elements": {
+        "铜(Cu)": 0.2,
+        "氧(O)": 0.25,
+        "硅(Si)": 0.22,
+        "铁(Fe)": 0.18,
+        "铝(Al)": 0.15
+      }
+    },
+    {
+      "blockId": "minecraft:gold_ore",
+      "category": "metal_ore",
+      "density": 3.55,
+      "lightLevel": 0,
+      "colorHex": "c8ad5b",
+      "reflectance": 0.24,
+      "radioactivity": 0.02,
+      "elements": {
+        "金(Au)": 0.12,
+        "氧(O)": 0.26,
+        "硅(Si)": 0.26,
+        "铁(Fe)": 0.18,
+        "铝(Al)": 0.18
+      }
+    },
+    {
+      "blockId": "minecraft:deepslate_gold_ore",
+      "category": "metal_ore",
+      "density": 3.72,
+      "lightLevel": 0,
+      "colorHex": "7f6f49",
+      "reflectance": 0.16,
+      "radioactivity": 0.03,
+      "elements": {
+        "金(Au)": 0.13,
+        "氧(O)": 0.23,
+        "硅(Si)": 0.22,
+        "铁(Fe)": 0.22,
+        "镁(Mg)": 0.2
+      }
+    },
+    {
+      "blockId": "minecraft:redstone_ore",
+      "category": "ore",
+      "density": 3.0,
+      "lightLevel": 0,
+      "colorHex": "8b3a44",
+      "reflectance": 0.16,
+      "radioactivity": 0.05,
+      "elements": {
+        "硅(Si)": 0.28,
+        "氧(O)": 0.24,
+        "铁(Fe)": 0.2,
+        "铜(Cu)": 0.15,
+        "硫(S)": 0.13
+      }
+    },
+    {
+      "blockId": "minecraft:deepslate_redstone_ore",
+      "category": "ore",
+      "density": 3.18,
+      "lightLevel": 0,
+      "colorHex": "5c2d36",
+      "reflectance": 0.12,
+      "radioactivity": 0.06,
+      "elements": {
+        "硅(Si)": 0.24,
+        "氧(O)": 0.21,
+        "铁(Fe)": 0.24,
+        "铜(Cu)": 0.16,
+        "硫(S)": 0.15
+      }
+    },
+    {
+      "blockId": "minecraft:lapis_ore",
+      "category": "ore",
+      "density": 2.95,
+      "lightLevel": 0,
+      "colorHex": "3950a8",
+      "reflectance": 0.19,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.28,
+        "氧(O)": 0.3,
+        "铝(Al)": 0.18,
+        "钠(Na)": 0.13,
+        "硫(S)": 0.11
+      }
+    },
+    {
+      "blockId": "minecraft:deepslate_lapis_ore",
+      "category": "ore",
+      "density": 3.12,
+      "lightLevel": 0,
+      "colorHex": "31407d",
+      "reflectance": 0.14,
+      "radioactivity": 0.02,
+      "elements": {
+        "硅(Si)": 0.25,
+        "氧(O)": 0.27,
+        "铝(Al)": 0.18,
+        "铁(Fe)": 0.16,
+        "钠(Na)": 0.14
+      }
+    },
+    {
+      "blockId": "minecraft:diamond_ore",
+      "category": "ore",
+      "density": 2.88,
+      "lightLevel": 0,
+      "colorHex": "5dbfd6",
+      "reflectance": 0.23,
+      "radioactivity": 0.0,
+      "elements": {
+        "碳(C)": 0.2,
+        "硅(Si)": 0.28,
+        "氧(O)": 0.28,
+        "铝(Al)": 0.12,
+        "铁(Fe)": 0.12
+      }
+    },
+    {
+      "blockId": "minecraft:deepslate_diamond_ore",
+      "category": "ore",
+      "density": 3.05,
+      "lightLevel": 0,
+      "colorHex": "4a8d99",
+      "reflectance": 0.17,
+      "radioactivity": 0.01,
+      "elements": {
+        "碳(C)": 0.19,
+        "硅(Si)": 0.24,
+        "氧(O)": 0.24,
+        "铁(Fe)": 0.17,
+        "镁(Mg)": 0.16
+      }
+    },
+    {
+      "blockId": "minecraft:emerald_ore",
+      "category": "ore",
+      "density": 2.92,
+      "lightLevel": 0,
+      "colorHex": "3fa56b",
+      "reflectance": 0.24,
+      "radioactivity": 0.0,
+      "elements": {
+        "氧(O)": 0.45,
+        "硅(Si)": 0.24,
+        "铝(Al)": 0.18,
+        "铍(Be)": 0.08,
+        "铬(Cr)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:deepslate_emerald_ore",
+      "category": "ore",
+      "density": 3.09,
+      "lightLevel": 0,
+      "colorHex": "346f55",
+      "reflectance": 0.18,
+      "radioactivity": 0.01,
+      "elements": {
+        "氧(O)": 0.4,
+        "硅(Si)": 0.22,
+        "铝(Al)": 0.18,
+        "铁(Fe)": 0.14,
+        "铍(Be)": 0.06
+      }
+    },
+    {
+      "blockId": "minecraft:nether_gold_ore",
+      "category": "metal_ore",
+      "density": 3.22,
+      "lightLevel": 0,
+      "colorHex": "c28a45",
+      "reflectance": 0.21,
+      "radioactivity": 0.04,
+      "elements": {
+        "金(Au)": 0.14,
+        "铁(Fe)": 0.16,
+        "硅(Si)": 0.26,
+        "氧(O)": 0.2,
+        "硫(S)": 0.24
+      }
+    },
+    {
+      "blockId": "minecraft:nether_quartz_ore",
+      "category": "ore",
+      "density": 2.74,
+      "lightLevel": 0,
+      "colorHex": "cfc3b8",
+      "reflectance": 0.33,
+      "radioactivity": 0.02,
+      "elements": {
+        "硅(Si)": 0.44,
+        "氧(O)": 0.44,
+        "铁(Fe)": 0.05,
+        "镁(Mg)": 0.04,
+        "铝(Al)": 0.03
+      }
+    },
+    {
+      "blockId": "minecraft:quartz_block",
+      "category": "mineral",
+      "density": 2.65,
+      "lightLevel": 0,
+      "colorHex": "f4ece4",
+      "reflectance": 0.44,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.47,
+        "氧(O)": 0.44,
+        "铝(Al)": 0.05,
+        "钙(Ca)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:quartz_pillar",
+      "category": "mineral",
+      "density": 2.66,
+      "lightLevel": 0,
+      "colorHex": "f0e6dd",
+      "reflectance": 0.43,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.46,
+        "氧(O)": 0.45,
+        "铝(Al)": 0.05,
+        "钙(Ca)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:chiseled_quartz_block",
+      "category": "mineral",
+      "density": 2.67,
+      "lightLevel": 0,
+      "colorHex": "f7eee4",
+      "reflectance": 0.46,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.45,
+        "氧(O)": 0.46,
+        "铝(Al)": 0.05,
+        "钙(Ca)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:quartz_bricks",
+      "category": "mineral",
+      "density": 2.68,
+      "lightLevel": 0,
+      "colorHex": "f2e8de",
+      "reflectance": 0.41,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.46,
+        "氧(O)": 0.44,
+        "铝(Al)": 0.06,
+        "钙(Ca)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:smooth_quartz",
+      "category": "mineral",
+      "density": 2.64,
+      "lightLevel": 0,
+      "colorHex": "f7f0e7",
+      "reflectance": 0.47,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.47,
+        "氧(O)": 0.43,
+        "铝(Al)": 0.06,
+        "钙(Ca)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:ancient_debris",
+      "category": "exotic_ore",
+      "density": 4.8,
+      "lightLevel": 0,
+      "colorHex": "5a4438",
+      "reflectance": 0.16,
+      "radioactivity": 0.07,
+      "elements": {
+        "铁(Fe)": 0.34,
+        "碳(C)": 0.18,
+        "硅(Si)": 0.16,
+        "镍(Ni)": 0.14,
+        "金(Au)": 0.18
+      }
+    },
+    {
+      "blockId": "minecraft:raw_iron_block",
+      "category": "ore_cluster",
+      "density": 4.15,
+      "lightLevel": 0,
+      "colorHex": "a78d76",
+      "reflectance": 0.24,
+      "radioactivity": 0.02,
+      "elements": {
+        "铁(Fe)": 0.68,
+        "氧(O)": 0.1,
+        "硅(Si)": 0.1,
+        "镍(Ni)": 0.07,
+        "碳(C)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:raw_copper_block",
+      "category": "ore_cluster",
+      "density": 3.95,
+      "lightLevel": 0,
+      "colorHex": "b46a45",
+      "reflectance": 0.22,
+      "radioactivity": 0.01,
+      "elements": {
+        "铜(Cu)": 0.69,
+        "氧(O)": 0.09,
+        "硅(Si)": 0.09,
+        "铁(Fe)": 0.08,
+        "硫(S)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:raw_gold_block",
+      "category": "ore_cluster",
+      "density": 5.95,
+      "lightLevel": 0,
+      "colorHex": "d8b24c",
+      "reflectance": 0.41,
+      "radioactivity": 0.01,
+      "elements": {
+        "金(Au)": 0.7,
+        "硅(Si)": 0.1,
+        "氧(O)": 0.08,
+        "铁(Fe)": 0.07,
+        "铜(Cu)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:water",
+      "category": "fluid",
+      "density": 1.0,
+      "lightLevel": 0,
+      "colorHex": "3f76e4",
+      "reflectance": 0.15,
+      "radioactivity": 0.0,
+      "elements": {
+        "氢(H)": 0.67,
+        "氧(O)": 0.33
+      }
+    },
+    {
+      "blockId": "minecraft:lava",
+      "category": "fluid",
+      "density": 3.1,
+      "lightLevel": 15,
+      "colorHex": "ff6a00",
+      "reflectance": 0.08,
+      "radioactivity": 0.08,
+      "elements": {
+        "硅(Si)": 0.38,
+        "氧(O)": 0.24,
+        "铁(Fe)": 0.12,
+        "镁(Mg)": 0.1,
+        "钙(Ca)": 0.08,
+        "铝(Al)": 0.08
+      }
+    },
+    {
+      "blockId": "minecraft:smooth_stone",
+      "category": "rock",
+      "density": 2.66,
+      "lightLevel": 0,
+      "colorHex": "8a8a84",
+      "reflectance": 0.22,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.44,
+        "氧(O)": 0.42,
+        "铝(Al)": 0.06,
+        "铁(Fe)": 0.05,
+        "钾(K)": 0.03
+      }
+    },
+    {
+      "blockId": "minecraft:cobblestone",
+      "category": "rock",
+      "density": 2.6,
+      "lightLevel": 0,
+      "colorHex": "8d8b84",
+      "reflectance": 0.18,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.44,
+        "氧(O)": 0.43,
+        "铁(Fe)": 0.08,
+        "铝(Al)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:polished_granite",
+      "category": "rock",
+      "density": 2.76,
+      "lightLevel": 0,
+      "colorHex": "b17b6b",
+      "reflectance": 0.16,
+      "radioactivity": 0.02,
+      "elements": {
+        "硅(Si)": 0.41,
+        "氧(O)": 0.4,
+        "铝(Al)": 0.07,
+        "铁(Fe)": 0.08,
+        "钾(K)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:polished_diorite",
+      "category": "rock",
+      "density": 2.73,
+      "lightLevel": 0,
+      "colorHex": "dfdfdc",
+      "reflectance": 0.3,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.39,
+        "氧(O)": 0.46,
+        "钙(Ca)": 0.06,
+        "铝(Al)": 0.05,
+        "镁(Mg)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:polished_andesite",
+      "category": "rock",
+      "density": 2.71,
+      "lightLevel": 0,
+      "colorHex": "7c7c79",
+      "reflectance": 0.2,
+      "radioactivity": 0.02,
+      "elements": {
+        "硅(Si)": 0.43,
+        "氧(O)": 0.41,
+        "铝(Al)": 0.07,
+        "铁(Fe)": 0.06,
+        "钙(Ca)": 0.03
+      }
+    },
+    {
+      "blockId": "minecraft:stone_bricks",
+      "category": "processed_stone",
+      "density": 2.64,
+      "lightLevel": 0,
+      "colorHex": "7a7a73",
+      "reflectance": 0.2,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.44,
+        "氧(O)": 0.41,
+        "铝(Al)": 0.07,
+        "铁(Fe)": 0.06,
+        "钙(Ca)": 0.02
+      }
+    },
+    {
+      "blockId": "minecraft:cracked_stone_bricks",
+      "category": "processed_stone",
+      "density": 2.63,
+      "lightLevel": 0,
+      "colorHex": "6f6a63",
+      "reflectance": 0.17,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.44,
+        "氧(O)": 0.41,
+        "铝(Al)": 0.07,
+        "铁(Fe)": 0.06,
+        "钙(Ca)": 0.02
+      }
+    },
+    {
+      "blockId": "minecraft:chiseled_stone_bricks",
+      "category": "processed_stone",
+      "density": 2.65,
+      "lightLevel": 0,
+      "colorHex": "79766f",
+      "reflectance": 0.21,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.43,
+        "氧(O)": 0.42,
+        "铝(Al)": 0.07,
+        "铁(Fe)": 0.06,
+        "钙(Ca)": 0.02
+      }
+    },
+    {
+      "blockId": "minecraft:cobbled_deepslate",
+      "category": "rock",
+      "density": 2.86,
+      "lightLevel": 0,
+      "colorHex": "4a4a53",
+      "reflectance": 0.13,
+      "radioactivity": 0.03,
+      "elements": {
+        "硅(Si)": 0.41,
+        "氧(O)": 0.37,
+        "铁(Fe)": 0.13,
+        "碳(C)": 0.05,
+        "镁(Mg)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:polished_deepslate",
+      "category": "rock",
+      "density": 2.88,
+      "lightLevel": 0,
+      "colorHex": "53535c",
+      "reflectance": 0.15,
+      "radioactivity": 0.03,
+      "elements": {
+        "硅(Si)": 0.4,
+        "氧(O)": 0.38,
+        "铁(Fe)": 0.12,
+        "碳(C)": 0.05,
+        "镁(Mg)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:deepslate_bricks",
+      "category": "processed_stone",
+      "density": 2.9,
+      "lightLevel": 0,
+      "colorHex": "43434b",
+      "reflectance": 0.12,
+      "radioactivity": 0.03,
+      "elements": {
+        "硅(Si)": 0.4,
+        "氧(O)": 0.38,
+        "铁(Fe)": 0.12,
+        "碳(C)": 0.05,
+        "镁(Mg)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:cracked_deepslate_bricks",
+      "category": "processed_stone",
+      "density": 2.89,
+      "lightLevel": 0,
+      "colorHex": "3b3b42",
+      "reflectance": 0.1,
+      "radioactivity": 0.03,
+      "elements": {
+        "硅(Si)": 0.39,
+        "氧(O)": 0.38,
+        "铁(Fe)": 0.13,
+        "碳(C)": 0.05,
+        "镁(Mg)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:deepslate_tiles",
+      "category": "processed_stone",
+      "density": 2.92,
+      "lightLevel": 0,
+      "colorHex": "3d4049",
+      "reflectance": 0.13,
+      "radioactivity": 0.03,
+      "elements": {
+        "硅(Si)": 0.4,
+        "氧(O)": 0.38,
+        "铁(Fe)": 0.12,
+        "碳(C)": 0.05,
+        "镁(Mg)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:cracked_deepslate_tiles",
+      "category": "processed_stone",
+      "density": 2.91,
+      "lightLevel": 0,
+      "colorHex": "343842",
+      "reflectance": 0.11,
+      "radioactivity": 0.03,
+      "elements": {
+        "硅(Si)": 0.39,
+        "氧(O)": 0.38,
+        "铁(Fe)": 0.13,
+        "碳(C)": 0.05,
+        "镁(Mg)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:chiseled_deepslate",
+      "category": "processed_stone",
+      "density": 2.93,
+      "lightLevel": 0,
+      "colorHex": "45464e",
+      "reflectance": 0.12,
+      "radioactivity": 0.03,
+      "elements": {
+        "硅(Si)": 0.4,
+        "氧(O)": 0.38,
+        "铁(Fe)": 0.12,
+        "碳(C)": 0.05,
+        "镁(Mg)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:cut_sandstone",
+      "category": "sediment",
+      "density": 2.33,
+      "lightLevel": 0,
+      "colorHex": "d7c99c",
+      "reflectance": 0.3,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.5,
+        "氧(O)": 0.31,
+        "钙(Ca)": 0.11,
+        "铁(Fe)": 0.04,
+        "铝(Al)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:chiseled_sandstone",
+      "category": "sediment",
+      "density": 2.33,
+      "lightLevel": 0,
+      "colorHex": "d1c395",
+      "reflectance": 0.29,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.5,
+        "氧(O)": 0.31,
+        "钙(Ca)": 0.11,
+        "铁(Fe)": 0.04,
+        "铝(Al)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:smooth_sandstone",
+      "category": "sediment",
+      "density": 2.32,
+      "lightLevel": 0,
+      "colorHex": "d9cb9f",
+      "reflectance": 0.31,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.5,
+        "氧(O)": 0.31,
+        "钙(Ca)": 0.11,
+        "铁(Fe)": 0.04,
+        "铝(Al)": 0.04
+      }
+    },
+    {
+      "blockId": "minecraft:cut_red_sandstone",
+      "category": "sediment",
+      "density": 2.36,
+      "lightLevel": 0,
+      "colorHex": "ab5630",
+      "reflectance": 0.27,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.46,
+        "氧(O)": 0.28,
+        "铁(Fe)": 0.12,
+        "铝(Al)": 0.08,
+        "钙(Ca)": 0.06
+      }
+    },
+    {
+      "blockId": "minecraft:chiseled_red_sandstone",
+      "category": "sediment",
+      "density": 2.36,
+      "lightLevel": 0,
+      "colorHex": "a54f2b",
+      "reflectance": 0.26,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.46,
+        "氧(O)": 0.28,
+        "铁(Fe)": 0.12,
+        "铝(Al)": 0.08,
+        "钙(Ca)": 0.06
+      }
+    },
+    {
+      "blockId": "minecraft:smooth_red_sandstone",
+      "category": "sediment",
+      "density": 2.35,
+      "lightLevel": 0,
+      "colorHex": "b45a33",
+      "reflectance": 0.28,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.46,
+        "氧(O)": 0.28,
+        "铁(Fe)": 0.12,
+        "铝(Al)": 0.08,
+        "钙(Ca)": 0.06
+      }
+    },
+    {
+      "blockId": "minecraft:soul_sand",
+      "category": "sediment",
+      "density": 1.36,
+      "lightLevel": 0,
+      "colorHex": "5f4c3c",
+      "reflectance": 0.08,
+      "radioactivity": 0.06,
+      "elements": {
+        "硅(Si)": 0.33,
+        "氧(O)": 0.27,
+        "铁(Fe)": 0.15,
+        "碳(C)": 0.12,
+        "硫(S)": 0.13
+      }
+    },
+    {
+      "blockId": "minecraft:soul_soil",
+      "category": "sediment",
+      "density": 1.48,
+      "lightLevel": 0,
+      "colorHex": "3f3229",
+      "reflectance": 0.07,
+      "radioactivity": 0.06,
+      "elements": {
+        "硅(Si)": 0.31,
+        "氧(O)": 0.27,
+        "铁(Fe)": 0.16,
+        "碳(C)": 0.14,
+        "硫(S)": 0.12
+      }
+    },
+    {
+      "blockId": "minecraft:pointed_dripstone",
+      "category": "mineral",
+      "density": 2.68,
+      "lightLevel": 0,
+      "colorHex": "8a6a55",
+      "reflectance": 0.19,
+      "radioactivity": 0.01,
+      "elements": {
+        "钙(Ca)": 0.39,
+        "碳(C)": 0.13,
+        "氧(O)": 0.37,
+        "硅(Si)": 0.06,
+        "镁(Mg)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:budding_amethyst",
+      "category": "crystal",
+      "density": 2.66,
+      "lightLevel": 0,
+      "colorHex": "8462c8",
+      "reflectance": 0.43,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.47,
+        "氧(O)": 0.47,
+        "铁(Fe)": 0.03,
+        "铝(Al)": 0.03
+      }
+    },
+    {
+      "blockId": "minecraft:amethyst_cluster",
+      "category": "crystal",
+      "density": 2.64,
+      "lightLevel": 5,
+      "colorHex": "8b69d6",
+      "reflectance": 0.48,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.47,
+        "氧(O)": 0.47,
+        "铁(Fe)": 0.03,
+        "铝(Al)": 0.03
+      }
+    },
+    {
+      "blockId": "minecraft:small_amethyst_bud",
+      "category": "crystal",
+      "density": 2.63,
+      "lightLevel": 1,
+      "colorHex": "9b7be0",
+      "reflectance": 0.36,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.47,
+        "氧(O)": 0.47,
+        "铁(Fe)": 0.03,
+        "铝(Al)": 0.03
+      }
+    },
+    {
+      "blockId": "minecraft:medium_amethyst_bud",
+      "category": "crystal",
+      "density": 2.64,
+      "lightLevel": 2,
+      "colorHex": "9471db",
+      "reflectance": 0.39,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.47,
+        "氧(O)": 0.47,
+        "铁(Fe)": 0.03,
+        "铝(Al)": 0.03
+      }
+    },
+    {
+      "blockId": "minecraft:large_amethyst_bud",
+      "category": "crystal",
+      "density": 2.65,
+      "lightLevel": 4,
+      "colorHex": "8e6ed5",
+      "reflectance": 0.44,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.47,
+        "氧(O)": 0.47,
+        "铁(Fe)": 0.03,
+        "铝(Al)": 0.03
+      }
+    },
+    {
+      "blockId": "minecraft:coal_block",
+      "category": "carbon",
+      "density": 1.35,
+      "lightLevel": 0,
+      "colorHex": "1f1f1f",
+      "reflectance": 0.05,
+      "radioactivity": 0.01,
+      "elements": {
+        "碳(C)": 0.88,
+        "硫(S)": 0.05,
+        "铁(Fe)": 0.04,
+        "氧(O)": 0.03
+      }
+    },
+    {
+      "blockId": "minecraft:iron_block",
+      "category": "metal",
+      "density": 7.87,
+      "lightLevel": 0,
+      "colorHex": "9b9893",
+      "reflectance": 0.38,
+      "radioactivity": 0.02,
+      "elements": {
+        "铁(Fe)": 0.92,
+        "镍(Ni)": 0.04,
+        "碳(C)": 0.02,
+        "硅(Si)": 0.02
+      }
+    },
+    {
+      "blockId": "minecraft:gold_block",
+      "category": "metal",
+      "density": 19.32,
+      "lightLevel": 0,
+      "colorHex": "ffd84c",
+      "reflectance": 0.74,
+      "radioactivity": 0.01,
+      "elements": {
+        "金(Au)": 0.94,
+        "银(Ag)": 0.03,
+        "铜(Cu)": 0.02,
+        "铁(Fe)": 0.01
+      }
+    },
+    {
+      "blockId": "minecraft:copper_block",
+      "category": "metal",
+      "density": 8.96,
+      "lightLevel": 0,
+      "colorHex": "cc7f52",
+      "reflectance": 0.36,
+      "radioactivity": 0.01,
+      "elements": {
+        "铜(Cu)": 0.9,
+        "锡(Sn)": 0.04,
+        "铁(Fe)": 0.04,
+        "镍(Ni)": 0.02
+      }
+    },
+    {
+      "blockId": "minecraft:exposed_copper",
+      "category": "metal",
+      "density": 8.92,
+      "lightLevel": 0,
+      "colorHex": "b67859",
+      "reflectance": 0.33,
+      "radioactivity": 0.01,
+      "elements": {
+        "铜(Cu)": 0.86,
+        "氧(O)": 0.05,
+        "铁(Fe)": 0.04,
+        "镍(Ni)": 0.03,
+        "锡(Sn)": 0.02
+      }
+    },
+    {
+      "blockId": "minecraft:weathered_copper",
+      "category": "metal",
+      "density": 8.88,
+      "lightLevel": 0,
+      "colorHex": "8a9a72",
+      "reflectance": 0.29,
+      "radioactivity": 0.01,
+      "elements": {
+        "铜(Cu)": 0.84,
+        "氧(O)": 0.07,
+        "铁(Fe)": 0.04,
+        "镍(Ni)": 0.03,
+        "锡(Sn)": 0.02
+      }
+    },
+    {
+      "blockId": "minecraft:oxidized_copper",
+      "category": "metal",
+      "density": 8.84,
+      "lightLevel": 0,
+      "colorHex": "6b8578",
+      "reflectance": 0.25,
+      "radioactivity": 0.01,
+      "elements": {
+        "铜(Cu)": 0.82,
+        "氧(O)": 0.09,
+        "铁(Fe)": 0.04,
+        "镍(Ni)": 0.03,
+        "锡(Sn)": 0.02
+      }
+    },
+    {
+      "blockId": "minecraft:waxed_copper_block",
+      "category": "metal",
+      "density": 8.96,
+      "lightLevel": 0,
+      "colorHex": "cc7f52",
+      "reflectance": 0.39,
+      "radioactivity": 0.01,
+      "elements": {
+        "铜(Cu)": 0.9,
+        "锡(Sn)": 0.04,
+        "铁(Fe)": 0.04,
+        "镍(Ni)": 0.02
+      }
+    },
+    {
+      "blockId": "minecraft:waxed_exposed_copper",
+      "category": "metal",
+      "density": 8.92,
+      "lightLevel": 0,
+      "colorHex": "b67859",
+      "reflectance": 0.34,
+      "radioactivity": 0.01,
+      "elements": {
+        "铜(Cu)": 0.86,
+        "氧(O)": 0.05,
+        "铁(Fe)": 0.04,
+        "镍(Ni)": 0.03,
+        "锡(Sn)": 0.02
+      }
+    },
+    {
+      "blockId": "minecraft:waxed_weathered_copper",
+      "category": "metal",
+      "density": 8.88,
+      "lightLevel": 0,
+      "colorHex": "8a9a72",
+      "reflectance": 0.3,
+      "radioactivity": 0.01,
+      "elements": {
+        "铜(Cu)": 0.84,
+        "氧(O)": 0.07,
+        "铁(Fe)": 0.04,
+        "镍(Ni)": 0.03,
+        "锡(Sn)": 0.02
+      }
+    },
+    {
+      "blockId": "minecraft:waxed_oxidized_copper",
+      "category": "metal",
+      "density": 8.84,
+      "lightLevel": 0,
+      "colorHex": "6b8578",
+      "reflectance": 0.26,
+      "radioactivity": 0.01,
+      "elements": {
+        "铜(Cu)": 0.82,
+        "氧(O)": 0.09,
+        "铁(Fe)": 0.04,
+        "镍(Ni)": 0.03,
+        "锡(Sn)": 0.02
+      }
+    },
+    {
+      "blockId": "minecraft:diamond_block",
+      "category": "gem",
+      "density": 3.51,
+      "lightLevel": 0,
+      "colorHex": "99ebff",
+      "reflectance": 0.86,
+      "radioactivity": 0.0,
+      "elements": {
+        "碳(C)": 0.96,
+        "硅(Si)": 0.02,
+        "氧(O)": 0.01,
+        "铁(Fe)": 0.01
+      }
+    },
+    {
+      "blockId": "minecraft:emerald_block",
+      "category": "gem",
+      "density": 2.76,
+      "lightLevel": 0,
+      "colorHex": "5dd47a",
+      "reflectance": 0.78,
+      "radioactivity": 0.0,
+      "elements": {
+        "铍(Be)": 0.35,
+        "铝(Al)": 0.25,
+        "硅(Si)": 0.2,
+        "氧(O)": 0.15,
+        "铬(Cr)": 0.05
+      }
+    },
+    {
+      "blockId": "minecraft:lapis_block",
+      "category": "gem",
+      "density": 2.95,
+      "lightLevel": 0,
+      "colorHex": "324fb4",
+      "reflectance": 0.28,
+      "radioactivity": 0.01,
+      "elements": {
+        "硅(Si)": 0.28,
+        "氧(O)": 0.3,
+        "铝(Al)": 0.18,
+        "钠(Na)": 0.13,
+        "硫(S)": 0.11
+      }
+    },
+    {
+      "blockId": "minecraft:redstone_block",
+      "category": "ore",
+      "density": 3.0,
+      "lightLevel": 0,
+      "colorHex": "d33a3f",
+      "reflectance": 0.16,
+      "radioactivity": 0.05,
+      "elements": {
+        "硅(Si)": 0.28,
+        "氧(O)": 0.24,
+        "铁(Fe)": 0.2,
+        "铜(Cu)": 0.15,
+        "硫(S)": 0.13
+      }
+    },
+    {
+      "blockId": "minecraft:netherite_block",
+      "category": "metal",
+      "density": 8.2,
+      "lightLevel": 0,
+      "colorHex": "4a3f45",
+      "reflectance": 0.2,
+      "radioactivity": 0.04,
+      "elements": {
+        "铁(Fe)": 0.45,
+        "金(Au)": 0.2,
+        "碳(C)": 0.15,
+        "镍(Ni)": 0.1,
+        "铂(Pt)": 0.1
+      }
+    },
+    {
+      "blockId": "minecraft:polished_blackstone",
+      "category": "volcanic",
+      "density": 3.03,
+      "lightLevel": 0,
+      "colorHex": "333238",
+      "reflectance": 0.11,
+      "radioactivity": 0.04,
+      "elements": {
+        "硅(Si)": 0.33,
+        "氧(O)": 0.27,
+        "铁(Fe)": 0.22,
+        "镁(Mg)": 0.1,
+        "钙(Ca)": 0.08
+      }
+    },
+    {
+      "blockId": "minecraft:polished_blackstone_bricks",
+      "category": "processed_stone",
+      "density": 3.04,
+      "lightLevel": 0,
+      "colorHex": "2c2b31",
+      "reflectance": 0.1,
+      "radioactivity": 0.04,
+      "elements": {
+        "硅(Si)": 0.32,
+        "氧(O)": 0.27,
+        "铁(Fe)": 0.22,
+        "镁(Mg)": 0.1,
+        "钙(Ca)": 0.09
+      }
+    },
+    {
+      "blockId": "minecraft:cracked_polished_blackstone_bricks",
+      "category": "processed_stone",
+      "density": 3.03,
+      "lightLevel": 0,
+      "colorHex": "242329",
+      "reflectance": 0.09,
+      "radioactivity": 0.04,
+      "elements": {
+        "硅(Si)": 0.32,
+        "氧(O)": 0.27,
+        "铁(Fe)": 0.22,
+        "镁(Mg)": 0.1,
+        "钙(Ca)": 0.09
+      }
+    },
+    {
+      "blockId": "minecraft:chiseled_polished_blackstone",
+      "category": "processed_stone",
+      "density": 3.05,
+      "lightLevel": 0,
+      "colorHex": "343339",
+      "reflectance": 0.11,
+      "radioactivity": 0.04,
+      "elements": {
+        "硅(Si)": 0.33,
+        "氧(O)": 0.27,
+        "铁(Fe)": 0.22,
+        "镁(Mg)": 0.1,
+        "钙(Ca)": 0.08
+      }
+    }
+  ]
+}

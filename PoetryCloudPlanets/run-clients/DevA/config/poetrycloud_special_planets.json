@@ -1,0 +1,43 @@
+{
+  "_comment": "distanceUnit 用来统一解释下方所有坐标，坐标和相对距离都会按这里的单位读写；dimensionId 是这颗星球最终生成出的维度 ID；templateDimensionId 是蓝本来源，可以填本 mod 的内置模板 ID，也可以直接填其他 mod 的维度 ID。内置模板 ID：poetrycloud:dimension_template/random_planet 与 poetrycloud:dimension_template/blank_special_planet。",
+  "version": 1,
+  "distanceUnit": "AU",
+  "planets": [
+    {
+      "planetId": "sun_harbor",
+      "displayName": "日晷港",
+      "dimensionId": "poetrycloud:planet/sun_harbor",
+      "templateDimensionId": "poetrycloud:dimension_template/blank_special_planet",
+      "coordinates": {
+        "x": 12.0,
+        "y": 2.0,
+        "z": -6.0
+      },
+      "allowedPortalIds": []
+    },
+    {
+      "planetId": "glass_archive",
+      "displayName": "玻璃档案馆",
+      "dimensionId": "poetrycloud:planet/glass_archive",
+      "templateDimensionId": "poetrycloud:dimension_template/blank_special_planet",
+      "coordinates": {
+        "x": 42.0,
+        "y": -3.0,
+        "z": 16.0
+      },
+      "allowedPortalIds": []
+    },
+    {
+      "planetId": "signal_peak",
+      "displayName": "信号峰",
+      "dimensionId": "poetrycloud:planet/signal_peak",
+      "templateDimensionId": "poetrycloud:dimension_template/blank_special_planet",
+      "coordinates": {
+        "x": -65.0,
+        "y": 5.0,
+        "z": 27.0
+      },
+      "allowedPortalIds": []
+    }
+  ]
+}
