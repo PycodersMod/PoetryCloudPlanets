@@ -7,7 +7,7 @@ showAsResourcePack=false
 modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
-logoFile="logo.jpg"
+logoFile="logo.png"
 description='''${mod_description}'''
 features = { java_version = "${java_version_range}" }
 displayTest="MATCH_VERSION"
