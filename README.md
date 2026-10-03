@@ -1,29 +1,36 @@
 # PoetryCloudPlanets
 
-## Supported Targets
+## 支持目标
 
 <table>
 <thead>
 <tr><th>Loader</th><th>Minecraft</th></tr>
 </thead>
 <tbody>
-<tr><td><a href="https://files.minecraftforge.net/">Forge</a></td><td><a href="https://www.minecraft.net/en-us/article/minecraft--java-edition-1-20-1">1.20.1</a></td></tr>
+<tr><td><a href="forge/">Forge</a></td><td><a href="forge/1.20.1/">1.20.1</a></td></tr>
 </tbody>
 </table>
 
 维护诗云星球模组的星球内容、资源和游戏逻辑。
 
-## Project layout
+## 工程结构
 
-The buildable project is in [$(@{Loader=forge; Version=1.20.1; Path=forge/1.20.1}.Path)/](forge/1.20.1/). Repository metadata remains at the root.
+可构建项目位于 [forge/1.20.1/](forge/1.20.1/)。仓库共享元数据保留在根目录。
 
-## Build
+## 构建
 
-Run the Gradle wrapper from $(@{Loader=forge; Version=1.20.1; Path=forge/1.20.1}.Path)/:
+请进入目标目录并运行 Gradle Wrapper。
 
-``text
+Windows PowerShell：
+
+```powershell
+cd forge/1.20.1
+.\gradlew.bat clean build
+```
+
+Linux/macOS：
+
+```sh
 cd forge/1.20.1
 ./gradlew clean build
-``
-
-The target uses Forge for Minecraft 1.20.1. See the project directory for its Java and dependency requirements.
+```
