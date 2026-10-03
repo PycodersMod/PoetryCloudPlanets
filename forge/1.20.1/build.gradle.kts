@@ -24,7 +24,15 @@ val modDescription = prop("mod_description")
 val modLicense = prop("mod_license")
 val pcpUsername = providers.gradleProperty("pcpUsername").orNull
 val pcpRunDir = providers.gradleProperty("pcpRunDir").orNull
-val pycodersRunDir = file(providers.gradleProperty("pycodersRuntimeDir").orElse("../../runtime/legacy-import/PoetryCloudPlanets/run").get())
+val pycodersRuntimeProjectId = providers.gradleProperty("pycodersRuntimeProjectId").orElse(rootProject.name).get()
+val pycodersConfiguredRunDir = providers.gradleProperty("pycodersRuntimeDir").orNull?.let { file(it).canonicalFile }
+val pycodersConfiguredRuntimeRoot = providers.gradleProperty("pycodersRuntimeRoot").orNull
+    ?: providers.environmentVariable("MMTL_WORKSPACE_RUNTIME_ROOT").orNull
+val pycodersConfiguredRootRunDir = pycodersConfiguredRuntimeRoot?.let { File(it, "legacy-import/$pycodersRuntimeProjectId/run").canonicalFile }
+val pycodersDiscoveredRunDir = generateSequence(project.projectDir.canonicalFile) { it.parentFile }
+    .map { File(it, "runtime/legacy-import/$pycodersRuntimeProjectId/run").canonicalFile }
+    .firstOrNull { it.isDirectory }
+val pycodersRunDir = pycodersConfiguredRunDir ?: pycodersConfiguredRootRunDir ?: pycodersDiscoveredRunDir ?: file("run").canonicalFile
 fun decodeArgs(name: String): List<String> = providers.gradleProperty(name).orNull?.takeIf { it.isNotEmpty() }?.split('.')?.map { if (it == "_") "" else String(Base64.getDecoder().decode(it), StandardCharsets.UTF_8) } ?: emptyList()
 val pycodersGameArgs = decodeArgs("pycodersGameArgsB64")
 val pycodersJavaArgs = decodeArgs("pycodersJavaArgsB64")
